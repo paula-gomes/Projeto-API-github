@@ -7,7 +7,7 @@ class RepoView {
    static displayrepo (repo) {
         return `<div>           
             <a href="${repo.repositoriesUrl}"> ${repo.nameRepo} </a>
-                /div>`
+                </div>`
     }
 }
 

@@ -1,0 +1,29 @@
+.header
+{
+    display:flex;
+    background-color: lightgrey;
+    font-family:  'Modak', cursive;
+    font-weight: lighter;    
+    font-size:larger;
+    height: 80px;
+    
+}
+#logogithub{
+
+    width:80px;
+    height: 80px;
+    margin-left: 20%;
+}
+#gitfind{
+
+    margin-left: 3%;
+    padding-top: 30px;
+
+}
+
+#datauser{
+ 
+    padding-top: 30px;
+    margin-left: 2%;
+
+}

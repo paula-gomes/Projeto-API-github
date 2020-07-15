@@ -4,18 +4,29 @@
     <html lang="pt-BR">
         <head>
             <link rel="stylesheet" href="./srcs/assets/css/reset.css">   
-            <link rel="stylesheet" href="./srcs/assets/css/style.css">                  
+            <link rel="stylesheet" href="./srcs/assets/css/style.css"> 
+            <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">                 
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta charset="UTF-8">
             <title> Gituhub Users</title>        
         </head>
         <body>
-            <div id= datauser></div>
-                <input type="text" id="username" placeholder="username">
-                <input type="submit" id="submituser" value="Gitname">
-            </div>
+            <header class="header">
+                <img id="logogithub" src="srcs/assets/imgs/octocat_github.png" alt="logo github">
+                <h1 id="gitfind"> Find the GitUser you're looking for</h1>
+                <div id= datauser>
+                    <input type="text" id="username" placeholder="username">
+                    <input type="submit" id="submituser" value="Gitname">
+                </div>
+            </header>
+
+            <main>
+           
             <div id="userid"></div>
             <div id="repositories"></div>
+
+            </main>
+
         </body>
         <script src="./srcs/Models/ModelRepos.js"></script>
         <script src="./srcs/Models/ModelUser.js"></script>
