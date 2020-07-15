@@ -5,11 +5,13 @@ class UserView {
       }
 
    static displayuser (objUser) {
-        return `<div>
-            <img src= "${objUser.avatar}.jpg">
-            <p id="nomeGit"> NomeGit:  ${objUser.name}</p>
-            <p id ="bioGit"> Bio: ${objUser.bio}</p>       
-           
+        return `<div class="Objuser">
+            <img id = "imgUser" src= "${objUser.avatar}.jpg">
+             
+            <div class="nomeBio">
+            <p id="nomeGit">Name: ${objUser.name}</p>
+            <p id ="bioGit"> Bio: ${objUser.bio}</p>  
+            </div>
             </div>`
     }
 }

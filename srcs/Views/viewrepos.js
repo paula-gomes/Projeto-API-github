@@ -5,9 +5,10 @@ class RepoView {
       }
 
    static displayrepo (repo) {
-        return `<div>           
-            <a href="${repo.repositoriesUrl}"> ${repo.nameRepo} </a>
-                </div>`
+        return `<div>
+                  
+            <a href="${repo.repositoriesUrl}"> Repository: ${repo.nameRepo} </a>
+            </div>`
     }
 }
 

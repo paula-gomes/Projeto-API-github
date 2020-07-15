@@ -1,8 +1,16 @@
+body{
+
+    background-color: #dddddd;
+    font-family: 'Karla', sans-serif;
+}
+
+
 .header
 {
     display:flex;
-    background-color: lightgrey;
+    background-color: #fdcb9e;
     font-family:  'Modak', cursive;
+    color: #3f3f44;
     font-weight: lighter;    
     font-size:larger;
     height: 80px;
@@ -25,5 +33,59 @@
  
     padding-top: 30px;
     margin-left: 2%;
+
+}
+#main{
+
+    display:flex;
+    
+}
+#userid{
+    width:60%;
+}
+#repositories{
+    width:50%;
+    padding-top: 30px;
+    margin: 0 auto;
+
+}
+#nomeGit{
+
+    margin-left: 5%;
+    margin-top: 10%;
+    
+}
+
+#bioGit{   
+    margin-left: 5%;
+    margin-top: 10%; 
+
+}
+
+.Objuser{
+
+    padding-top: 20px;
+    display:flex;
+    width: 80%;
+    justify-content: space-around;
+   
+}
+
+
+
+#imgUser{
+
+    margin-left: 30%;
+    border:  solid 5px #393e46;
+    border-radius: 100px;
+    display: flex;
+    width: 180px;
+    height:180px;
+
+}
+
+.nomeBio{
+
+    margin:0 auto;
 
 }
