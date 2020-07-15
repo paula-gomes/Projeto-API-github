@@ -1,7 +1,7 @@
 class UserView {
 
     constructor() {
-        throw ("sem instacia");
+        throw ("Class without instacies");
       }
 
    static displayuser (objUser) {

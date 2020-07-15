@@ -1,14 +1,13 @@
 class RepoView {
 
     constructor() {
-        throw ("sem instacia");
+        throw ("Class without instacies");
       }
 
    static displayrepo (repo) {
-        return `<div>
-            <p> ${repo.nameRepo}</p>      
-            <a href="${repo.repositoriesUrl}"> </a>
-                </div>`
+        return `<div>           
+            <a href="${repo.repositoriesUrl}"> ${repo.nameRepo} </a>
+                /div>`
     }
 }
 
